@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171127132638) do
+ActiveRecord::Schema.define(version: 20171204115743) do
 
   create_table "bookings", force: :cascade do |t|
     t.integer "User_id"
@@ -40,12 +40,13 @@ ActiveRecord::Schema.define(version: 20171127132638) do
 
   create_table "films", force: :cascade do |t|
     t.string "name"
-    t.integer "run_time"
+    t.integer "play_time"
     t.string "link_trailer"
     t.string "image"
-    t.float "avg_rate", default: 0.0
+    t.float "avg_rate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "describe"
   end
 
   create_table "post_reviews", force: :cascade do |t|

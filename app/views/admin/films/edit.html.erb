@@ -1,0 +1,30 @@
+<div class="container">
+  <h1>Create Movie</h1>
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <%= form_for [:admin, @film] do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name, placeholder: "Film name"%>
+        </br>
+        <%= f.label :play_time %>
+        <%= f.number_field :play_time, placeholder: "Play time of film"%>
+        </br>
+        <%= f.label :link_trailer %>
+        <%= f.text_field :link_trailer, placeholder: "Link movie trailer" %>
+        </br>
+        <span class="picture">
+          <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
+        </span>
+        </br>
+        <%= f.label :avg_rate %>
+        <%= f.number_field :avg_rate, step: "any", placeholder: "IDMB rate" %>
+        </br>
+        <%= f.label :describe %>
+        <%= f.text_area :describe, placeholder: "Movie describe" %>
+        </br>
+        <%= f.submit "Create Film", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
