@@ -243,6 +243,9 @@ en:
       audience_score: "AUDIENCE SCORE"
       rating_film: "Rating Film"
       describe: "Describe"
+<<<<<<< HEAD
       review_section: "REVIEW SECTION"
     rating:
       ago: "ago"
+=======
+>>>>>>> rating film

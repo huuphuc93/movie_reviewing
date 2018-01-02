@@ -244,6 +244,9 @@ vi:
       audience_score: "Đánh giá của khán giả"
       rating_film: "Đánh giá phim"
       describe: "Mô tả"
+<<<<<<< HEAD
       review_section: "ĐÁNH GIÁ"
     rating:
       ago: "trước"
+=======
+>>>>>>> rating film
