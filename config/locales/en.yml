@@ -57,6 +57,7 @@ en:
     update_rate_failed: "Update rate failed"
     destroy_rate_succeed: "Delete rate succeed"
     destroy_rate_failed: "Delete rate failed"
+    login_face_failed: "Login via Facebook failed"
 
   form:
     name: "Name"
@@ -243,9 +244,6 @@ en:
       audience_score: "AUDIENCE SCORE"
       rating_film: "Rating Film"
       describe: "Describe"
-<<<<<<< HEAD
       review_section: "REVIEW SECTION"
     rating:
       ago: "ago"
-=======
->>>>>>> rating film

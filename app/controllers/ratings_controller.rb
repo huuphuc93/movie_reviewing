@@ -39,7 +39,6 @@ class RatingsController < ApplicationController
         message: t('flash.destroy_rate_failed')
       }
     end
-
   end
 
   private
